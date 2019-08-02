@@ -19,7 +19,7 @@ body{
 }
 .container> nav{
 	line-height: 40px;
-	background-color: green;
+	background-color: #6BF142;
 	color: white;
 	text-align: left;
 	font-variant: small-caps;
@@ -69,7 +69,6 @@ iframe[name=page]{
 .vmenu a{
 	background-color: white;
 	display: block;
-	border-bottom: 1px dotted orangered;
 	color: orangered;
 	font-variant: small-caps;
 	font-size: larger;
@@ -78,13 +77,13 @@ iframe[name=page]{
 }
 .vmenu a:hover{
 
-	border-bottom: 1px dotted white;
+	border-bottom: 1px solid white;
 	background-color: orangered;
 	color: white;
 	font-weight: bold;
 }
 .col-25{
-	padding-top:15px; 
+	padding-top:5px; 
 	width: 100%;
 	float: left;
 }
@@ -108,8 +107,8 @@ iframe[name=page]{
 }
 .company{
 	position: absolute;
-	left: 100px;
-	padding-top: 30px;
+	left: 200px;
+	padding-top: 15px;
 
 }
 .menu>ul>li{
@@ -130,11 +129,11 @@ iframe[name=page]{
 	margin: 0px;
 	list-style: none;
 	border-radius: 3px;
-	background-color: green;
+	background-color: #08D33B;
 	text-align: center;	
 }
 .menu>ul>li>a:hover{
-	color: blue;
+	color: #B50DDA;
 }
 .menu ul ul{
 	background-color: white;

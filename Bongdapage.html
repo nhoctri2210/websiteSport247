@@ -1,5 +1,20 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<style type="text/css">
+	#inputbutton{
+		margin-left: 5px;
+	}
+	strong{
+		color: white;
+	}
+	.news2{
+		padding-left: 20px;
+	}
+</style>
 <div class="container">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="layout.css">
@@ -8,13 +23,29 @@
 </head>
 <body>
 	<header>
-			<div class="top-right">
+		<div class="Navs">
+			<div class="navbar navbar-light bg-dark">
+  				<a class="navbar-brand" href="#">
+    			<img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+    			<strong>TRANG THỂ THAO SPORT 24/7</strong>
+  				</a>
+			<form class="form-inline">
+   			 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+   			 <div id="inputbutton">
+    		<button class="btn btn-outline-success my-2 my-sm-0" type="submit" >Search</button>  
+    		<button class="btn btn-outline-success my-2 my-sm-0" type="submit" ><a href="login.html">Đăng Nhập</a></button>
+    		<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="register.html">Đăng Kí</a></button>
+    	</div>
+  			</form>
+			</div>
+		<!-- </div>
+		<div class="top-right">
 		<a href="login.html">| Đăng nhập |</a>
 		<a href="register.html">| Đăng kí |</a>
 		<a href="#">| Quên mật khẩu |</a>
-	</div>	
+	</div>	 -->
 		<div class="company">
-			<img src="abc1.png">
+			<img src="logo3.png" width="350px" height="280px" align="center">
 		</div>
 	</header>
 	<nav>
@@ -49,10 +80,20 @@
 		<div class="col-26">
 			<table class="thethao">
 				<tr>
-					<th><img src="vn1.png"></th>
+					<th><img src="vn1.png" width="150px" height="150px"></th>
 					<TH><a href="news.html">HOT!! VIỆT NAM GIÀNH CHỨC VÔ ĐỊCH AFF CUP 2018</a>
 						<br>
 					Sau 10 năm, Việt Nam đã lại đăng quang ngôi vô địch một cách xứng đáng... Xem thêm</TH>
+				</tr>
+			</table>
+		</div>
+		<div class="col-26">
+			<table class="thethao">
+				<tr>
+					<th><img src="tin2.jpg" width="150px" height="150px"></th>
+					<TH class="news2"><a href="news.html">REAL MADRID - BARCELONA: CUỘC CHIẾN KHÔNG KHOANG NHƯỢNG</a>
+						<br>
+					Elclassico luôn là tâm điểm của làng bóng đá toàn thế giới và những trận cầu nảy lửa luôn diễn ra. Và hôm nay không phải là ngoại lệ</TH>
 
 				</tr>
 			</table>
@@ -60,10 +101,10 @@
 		<div class="col-26">
 			<table class="thethao">
 				<tr>
-					<th><img src="vn1.png"></th>
-					<TH><a href="#">HOT!! VIỆT NAM GIÀNH CHỨC VÔ ĐỊCH AFF CUP 2018</a>
+					<th><img src="tin3.jpg" width="150px" height="150px"></th>
+					<TH class="news2"><a href="news.html">ARSENAL: ÔNG LỚN HAY ÔNG "BÉ"</a>
 						<br>
-					Sau 10 năm, Việt Nam đã lại đăng quang ngôi vô địch một cách xứng đáng... Xem thêm</TH>
+					Trong lịch sử, Arsenal luôn là một ông đại của bóng đá Anh. Nhưng gần đây họ đang thể hiện một bộ mặt quá bạc nhược</TH>
 
 				</tr>
 			</table>
@@ -71,21 +112,10 @@
 		<div class="col-26">
 			<table class="thethao">
 				<tr>
-					<th><img src="vn1.png"></th>
-					<TH><a href="#">HOT!! VIỆT NAM GIÀNH CHỨC VÔ ĐỊCH AFF CUP 2018</a>
+					<th><img src="tin4.jpg" width="150px" height="150px"></th>
+					<TH class="news2"><a href="#">MOURINHO ĐANG TÌM BẾN ĐỖ MỚI.</a>
 						<br>
-					Sau 10 năm, Việt Nam đã lại đăng quang ngôi vô địch một cách xứng đáng... Xem thêm</TH>
-
-				</tr>
-			</table>
-		</div>
-		<div class="col-26">
-			<table class="thethao">
-				<tr>
-					<th><img src="vn1.png"></th>
-					<TH><a href="#">HOT!! VIỆT NAM GIÀNH CHỨC VÔ ĐỊCH AFF CUP 2018</a>
-						<br>
-					Sau 10 năm, Việt Nam đã lại đăng quang ngôi vô địch một cách xứng đáng... Xem thêm</TH>
+					Sau khi bị M.U sa thải, nhà cầm quân từng hai lần vô địch Champion League đang liên hệ tìm đội bóng mới</TH>
 
 				</tr>
 			</table>
